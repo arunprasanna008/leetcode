@@ -1,0 +1,17 @@
+Linear Data Structures:
+Array: Sequential arrangements of data elements of a single data type linked to its index.
+Linked List: Each data element is linked to another data element along with the data present in it.
+Stack: Follows a specific order of operation. Last In First Out or First In Last Out.
+Queue: Follows a specific order of operation. First In First Out.
+Matrix: Two dimensional data structure in which data element are addressed by a pair of indices.
+
+Non-Linear Data Structures:
+Binary Tree:
+Heap:
+Hash Table:
+Graph:
+
+Python Specific Data Structures:
+Tuple: immutable list, they can only be read. (used for credentials/sockets)
+Dictionary: key-value pair as its data elements
+List: Sequential arrangement of data elements of any type mapped to its index.
