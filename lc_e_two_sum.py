@@ -5,14 +5,10 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You can return the answer in any order.
 """
-def verify(actual_output, expected_output):
-    try:
-        assert (actual_output == expected_output)
-        print("correct solution %s" % actual_output)
-    except AssertionError:
-        print ("wrong solution \n actual: %s \n expected: %s" % (actual_output, expected_output))
+from verification import verify
 
 class Solution:
+
     def twoSum_1(self, nums, target, expected_output):
         """
         using enumerate:
